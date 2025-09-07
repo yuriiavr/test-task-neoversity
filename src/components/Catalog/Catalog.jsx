@@ -26,11 +26,9 @@ const Catalog = () => {
         camper.location.toLowerCase().includes(location.toLowerCase())
       );
     }
-
     if (form) {
       filtered = filtered.filter(camper => camper.form === form);
     }
-
     if (AC) {
       filtered = filtered.filter(camper => camper.AC);
     }
