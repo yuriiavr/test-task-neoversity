@@ -132,27 +132,27 @@ const Filters = () => {
         <div className={styles.typeOptions}>
           <label
             className={`${styles.option} ${
-              vehicleType === "panel-truck" ? styles.active : ""
+              vehicleType === "panelTruck" ? styles.active : ""
             }`}
           >
             <input
               type="radio"
-              value="panel-truck"
-              checked={vehicleType === "panel-truck"}
-              onChange={() => setVehicleType("panel-truck")}
+              value="panelTruck"
+              checked={vehicleType === "panelTruck"}
+              onChange={() => setVehicleType("panelTruck")}
             />
             <Van className={styles.equipIcon} /> Van
           </label>
           <label
             className={`${styles.option} ${
-              vehicleType === "fully-integrated" ? styles.active : ""
+              vehicleType === "fullyIntegrated" ? styles.active : ""
             }`}
           >
             <input
               type="radio"
-              value="fully-integrated"
-              checked={vehicleType === "fully-integrated"}
-              onChange={() => setVehicleType("fully-integrated")}
+              value="fullyIntegrated"
+              checked={vehicleType === "fullyIntegrated"}
+              onChange={() => setVehicleType("fullyIntegrated")}
             />
             <FullyIntegrated className={styles.equipIcon} /> Fully Integrated
           </label>
