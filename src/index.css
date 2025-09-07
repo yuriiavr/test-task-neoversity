@@ -1,0 +1,29 @@
+:root {
+  --main: #101828;
+  --button-hover: #D84343;
+  --gray: #6C717B;
+  --button: #E44848;
+  --rating: #FFC531;
+  --gray-light: #DADDE1;
+  --badges: #F2F4F7;
+  --inputs: #F7F7F7;
+  --white: #FFFFFF;
+  --text: #475467
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  margin: 0;
+}
+
+h1, h2, h3, h4, p {
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}

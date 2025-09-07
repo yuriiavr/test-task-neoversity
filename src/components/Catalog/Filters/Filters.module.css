@@ -1,0 +1,115 @@
+.filters {
+  width: 360px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+}
+
+.filterGroup h4 {
+  font-size: 1rem;
+  color: var(--light-text-color);
+  margin-bottom: 0.5rem;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--gray-light);
+}
+
+.searchGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.searchGroup label {
+  color: var(--gray);
+}
+
+.locationInput {
+  width: 360px;
+  height: 56px;
+  padding: 16px 20px 16px 48px;
+  background-color: var(--inputs);
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.typeOptions,
+.equipmentOptions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  padding-top: 24px;
+}
+
+.option {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  align-items: center;
+  width: 112px;
+  height: 96px;
+  border: 1px solid var(--gray-light);
+  border-radius: 12px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+}
+
+.option:hover,
+.option.active {
+  border-color: var(--button);
+}
+
+.option input[type="radio"],
+.option input[type="checkbox"] {
+  display: none;
+}
+
+.equipIcon {
+  width: 32px;
+  height: 32px;
+}
+
+.searchBtn {
+  background-color: var(--button);
+  color: var(--white);
+  text-decoration: none;
+  border-radius: 200px;
+  transition: background-color 0.3s ease;
+  padding: 16px 48.5px;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.5%;
+  vertical-align: middle;
+}
+
+.searchBtn:hover {
+  background-color: var(--button-hover);
+}
+
+.locationCont {
+  position: relative;
+}
+
+.mapIcon {
+  position: absolute;
+  top: 18px;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+}
+
+.filtersText {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--text);
+}

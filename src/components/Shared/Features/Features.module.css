@@ -1,0 +1,19 @@
+.featuresList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.featuresList span {
+  padding: 12px 18px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 12px;
+  background-color: var(--badges);
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}

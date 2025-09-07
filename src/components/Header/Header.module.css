@@ -1,0 +1,44 @@
+.header {
+  background-color: var(--white);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem 3rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.header nav {
+  display: flex;
+
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  gap: 32px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: var(--main);
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navLink:hover {
+  color: var(--button-hover);
+}
+
+.mark{
+  color: #475467;
+}
